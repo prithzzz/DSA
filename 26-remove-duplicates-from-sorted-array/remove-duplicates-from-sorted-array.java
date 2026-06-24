@@ -1,3 +1,7 @@
+// Approach:
+// Parse through array and if value is equal to the value+1, then use another loop to move all numbers greater then value to the left. Then reduce the length of array.
+// Before moving to next value, check if there are any more duplicate values.
+
 class Solution {
     public int removeDuplicates(int[] nums) {
         int n = nums.length;

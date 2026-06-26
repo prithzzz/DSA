@@ -1,3 +1,12 @@
+// Approach 1: 
+// Brute Force: Store (n-1)th element as temp, move all elements to the right and put nums[0] as temp. Continue k times.
+// Too long!
+
+// Approach 2: 
+// Reverse method: Write reverse function. k = k % n ()
+// reverse the entire array, then reverse the (0 to k-1) elements and then reverse (k to n-1) elements. 
+
+
 class Solution {
     public void rotate(int[] nums, int k) {
         int n = nums.length;

@@ -1,3 +1,11 @@
+// Approach: 
+// Make 4 funtions allowing right, down, left, up traversal.
+// Then for moving inwards,  
+// Reduce the top index and run right again.
+// Reduce the right index and run down again.
+// Reduce the bottom index and run left again.
+// Reduce the left index and run up again.
+
 class Solution {
     public List<Integer> spiralOrder(int[][] matrix) {
         int top = 0;

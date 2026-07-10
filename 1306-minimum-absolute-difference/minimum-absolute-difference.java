@@ -5,19 +5,14 @@ class Solution {
         List<List<Integer>> result = new ArrayList<>();
         int min_diff = Integer.MAX_VALUE;
 
-        int i=1;
-        while(i<n){
+        for(int i=1; i<n; i++){
             int diff = Math.abs(arr[i] - arr[i-1]);
             min_diff = Math.min(min_diff, diff);
-            i++;
         }
 
-        int k=1;
-        while(k<n){
-            if(Math.abs(arr[k]-arr[k-1]) == min_diff){
+        for(int k=1; k<n; k++){
+            if(Math.abs(arr[k]-arr[k-1]) == min_diff)
                 result.add(Arrays.asList(arr[k-1], arr[k]));
-            }
-            k++;
         }
 
         return result;

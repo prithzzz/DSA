@@ -1,3 +1,8 @@
+// Approach: (sliding window)
+// Sort the array and calculate the min abs diff using loops.
+// Use another loop to find all pairs having tht min diff.
+
+
 class Solution {
     public List<List<Integer>> minimumAbsDifference(int[] arr) {
         int n = arr.length;

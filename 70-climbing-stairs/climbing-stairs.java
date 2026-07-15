@@ -1,4 +1,6 @@
 // Approach: (Fibonacci-type problem)
+// For stairs n=0/1/2, the number of ways is always constant. 
+// For n>=3, the pattern for number of ways is similar to fibonacci series, hence use fibonacci dp formula. Refer img.
 
 
 class Solution {

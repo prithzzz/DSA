@@ -1,3 +1,7 @@
+// Approach: (slow-fast approach)
+// Have 2 pointers(single & twice), while single moves next by one place, twice moves to next by two place.
+// So twice pointer reaches the end of the list when single pointer reaches the middle within the same while loop.
+
 /**
  * Definition for singly-linked list.
  * public class ListNode {

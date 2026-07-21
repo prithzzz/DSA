@@ -8,7 +8,7 @@ class Solution {
                 nums[i] = nums[n-1];
                 n--;
             }
-            if(nums[i] != val)
+            else
                 i++;
         }
         

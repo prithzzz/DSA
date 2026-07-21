@@ -1,3 +1,8 @@
+//Approach: (Prefix sum)
+//Form a prefix sum array where every element is the value of sum from 0 to i to n.
+//So any sum range will be prefix sum right-left value
+
+
 class NumArray {
 
     int[] sum;

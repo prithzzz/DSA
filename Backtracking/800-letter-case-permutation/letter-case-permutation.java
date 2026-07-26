@@ -1,5 +1,7 @@
-//Time complexity: O(2^n) //2^n permutations for a string of length n
+//Time: O(2^n) //2^n permutations for a string of length n
+//Space: O(2^n)
 
+//Approach: Brute force //ALSO TRY BACKTRACKING
 
 class Solution {
     public List<String> letterCasePermutation(String s) {

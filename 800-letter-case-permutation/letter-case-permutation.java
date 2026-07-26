@@ -1,3 +1,6 @@
+//Time complexity: O(2^n) //2^n permutations for a string of length n
+
+
 class Solution {
     public List<String> letterCasePermutation(String s) {
         List<String> result = new ArrayList<>();

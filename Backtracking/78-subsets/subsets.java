@@ -1,3 +1,8 @@
+// Approach: (Backtracking)
+// For every element has two paths- add to subset(append) or not add to subset(pop)
+// Time complexity: O(n.2^n)
+
+
 class Solution {
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();

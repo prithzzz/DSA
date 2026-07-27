@@ -17,8 +17,11 @@ class Solution {
         if(i >= nums.length)
             result.add(new ArrayList<>(subset));
         else{
+            // path to include nums[i] - left branch
             subset.add(nums[i]);
             backtrack(nums, i+1, subset, result);
+
+            // path to not include nums[i] - right branch
             subset.remove(subset.size() - 1);
             backtrack(nums, i+1, subset, result);
         }       

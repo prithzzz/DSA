@@ -1,6 +1,6 @@
 // Approach: (Backtracking)
 // Since every element has two paths- either add or not add to result, leads to 
-// Time complexity - O(2^n)
+// Time complexity - O(n.2^n)
 
 
 class Solution {

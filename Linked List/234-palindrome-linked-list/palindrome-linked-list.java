@@ -1,3 +1,7 @@
+// Approach:
+// First use slow/fast pointers to find the middle of the list. Then, reverse the 2nd half of the list. 
+// Finally use left/right pointers to check first and last node values while moving inwards and return false if nodes dont match.
+
 /**
  * Definition for singly-linked list.
  * public class ListNode {

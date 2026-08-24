@@ -1,3 +1,9 @@
+// Approach:
+// Iterate through every level in the tree and add node to the queue. 
+// Then again iterate within every level and add value of each polled node from queue to the sum. Add the left n right child of the node to the queue(adding next level elements to the queue).
+// Move to next level until null nodes are reached.
+
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {

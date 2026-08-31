@@ -1,3 +1,6 @@
+// Approach: (BFS)
+// Traverse and return the max of both left and right subtrees + 1 for root node
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {

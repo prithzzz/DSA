@@ -1,3 +1,6 @@
+// Approach: (BFS)
+// Traverse left and right subtree until you reach null. Return the min of both subtrees + 1 for root node
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {

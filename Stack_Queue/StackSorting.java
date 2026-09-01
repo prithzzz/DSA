@@ -7,6 +7,7 @@ While input is not empty-
 Return sorted temp stack
 */
 
+package Stack_Queue;
 import java.util.Stack;
 
 public class StackSorting{
@@ -31,7 +32,7 @@ public class StackSorting{
         return temp;
     }
 
-     public static void main(String[] args) {
+    public static void main(String[] args) {
         StackSorting obj = new StackSorting();
         Stack<Integer> result = obj.stackSorting();
         System.out.println(result);

@@ -1,3 +1,9 @@
+// Approach: [BFS]
+// Form a queue and keep adding and polling the nodes to it until queue is empty. 
+// for loop - For each level calculate the current queue size and poll n add those nodes to the level array while adding new nodes(left and right child of current node).
+// while loop - Add each level to result array(2D) and return it.
+
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
